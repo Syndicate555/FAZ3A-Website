@@ -6018,8 +6018,7 @@ h6 {
 /* line 1, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_breadcrumb.scss */
 .breadcrumb_bg {
   background-image: url("../img/2.jpg");
-  text-align: center;
-  background-position: center;
+  align-self: flex-end;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -6039,7 +6038,7 @@ h6 {
   height: 100%;
   background-color: #61a6d4;
   content: "";
-  opacity: 0.8;
+  opacity: 0;
   z-index: -1;
 }
 
